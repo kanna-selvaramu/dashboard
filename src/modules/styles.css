@@ -1,0 +1,335 @@
+.cls_homeWrapper {
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+}
+
+.cls_leftWrapper {
+	/* flex: 0.1; */
+	background-color: #261d56;
+	display: inline-block;
+	padding: 20px 0px;
+	width: 65px;
+}
+
+.cls_rightWrapper {
+	display: flex;
+	flex-direction: column;
+	background-color: #f3f4f8;
+	flex-grow: 1;
+}
+
+.cls_headerText {
+	display: inline-block;
+	color: #3953fe;
+	font-weight: 600;
+}
+
+.cls_subHeaderText {
+	display: inline-block;
+	padding-left: 5px;
+	font-weight: 600;
+}
+
+.cls_HeaderWrapper {
+	height: 60px;
+	display: flex;
+	text-align: left;
+	padding-left: 20px;
+	align-items: center;
+	background-color: #fff;
+}
+
+.cls_IconsWrapper {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	color: #fff;
+}
+
+.cls_IconContHead {
+	margin-bottom: 35px;
+}
+
+.cls_IconBottomCont {
+	align-content: flex-end;
+}
+
+.cls_IconCont {
+	margin-bottom: 10px;
+	cursor: cls_phoneInput;
+}
+
+.cls_IconTopCont {
+	flex-grow: 1;
+}
+
+.cls_rightContentWrapper {
+	display: flex;
+	flex-direction: row;
+	flex-grow: 1;
+}
+
+.cls_MenuWrapper {
+	margin: 15px 10px;
+	background-color: #fff;
+	border-radius: 10px;
+	flex: 0.3;
+}
+
+.cls_MenuList {
+	height: 45px;
+	line-height: 45px;
+	border-bottom: solid 1px #f3f4f8;
+	text-align: left;
+	padding-left: 20px;
+	cursor: pointer;
+}
+
+.cls_panelWrapper {
+	margin: 15px 10px;
+	background-color: #fff;
+	border-radius: 10px;
+	flex: 0.7 1;
+	padding: 20px;
+}
+
+.cls_title {
+	text-align: left;
+	padding: 10px;
+	font-weight: 500;
+}
+
+.cls_numCardCont {
+	display: inline-block;
+	width: 200px;
+	height: 100px;
+	border: solid 3px #f3f4f8;
+	border-radius: 12px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+
+.cls_numCardWrapper {
+	display: flex;
+	margin: 10px 0px 30px;
+	flex-wrap: wrap;
+}
+
+.cls_emptyText {
+	text-align: center;
+	line-height: 100px;
+	color: #3953fe;
+	font-weight: 600;
+}
+
+.cls_phoneNum {
+	flex-grow: 1;
+	padding-left: 3px;
+	color: #3953fe;
+	font-weight: 600;
+}
+
+.cls_numCardHead {
+	display: flex;
+	padding: 10px;
+	flex-grow: 1;
+}
+
+.cls_phoneIcon {
+	color: #3953fe;
+}
+
+.cls_activeIcon {
+	background-color: #3953fe;
+	border-top-left-radius: 100px;
+	border-bottom-left-radius: 100px;
+	margin-left: 12px;
+	text-align: revert;
+	padding: 5px 0px;
+}
+
+.cls_subactiveIcon {
+	margin-right: 11px;
+	line-height: 14px;
+}
+
+.cls_starIcon {
+	color: #ffc105;
+}
+
+.cls_numCard {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.cls_numCardBottom {
+	padding: 10px;
+}
+
+.cls_numCardBottom {
+	display: flex;
+}
+
+.cls_numCardDesc {
+	flex-grow: 1;
+	text-align: left;
+}
+
+.cls_popupWrapper {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.cls_popupCont {
+	position: absolute;
+	left: 25%;
+	right: 25%;
+	top: 25%;
+	bottom: 25%;
+	margin: auto;
+	border-radius: 20px;
+	background: white;
+	padding: 25px;
+	text-align: left;
+}
+
+.cls_popupTitle {
+	text-align: left;
+	display: inline-block;
+	vertical-align: super;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.cls_closeIcon {
+	float: right;
+	cursor: pointer;
+}
+
+.cls_subtitle {
+	padding: 40px 0px;
+}
+
+.cls_phoneInput {
+	border: 0;
+	border-bottom: solid 2px #e5e8f5;
+	padding-bottom: 10px;
+	color: #3953fe;
+	font-weight: 500;
+	font-size: 15px;
+	width: 300px;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	margin: 0;
+}
+
+.cls_buttonWrapper {
+	padding: 50px;
+	/* bottom: 0; */
+}
+
+.backBtn {
+	display: inline-block;
+	width: 150px;
+	text-align: center;
+	height: 40px;
+	border: solid 1px #f3f4f8;
+	border-radius: 10px;
+	line-height: 40px;
+	margin-right: 40px;
+	color: #3953fe;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+.cls_addBtn {
+	display: inline-block;
+	width: 150px;
+	text-align: center;
+	height: 40px;
+	border: solid 1px #3953fe;
+	border-radius: 10px;
+	line-height: 40px;
+	color: #fff;
+	font-weight: 500;
+	background-color: #3953fe;
+	cursor: pointer;
+}
+
+.cls_ArrowIcon {
+	display: flex;
+	padding-right: 10px;
+}
+
+.cls_activeMenu {
+	display: flex;
+	align-items: center;
+	color: #3953fe;
+	font-weight: 500;
+}
+
+.cls_activeMenu .cls_text {
+	flex: 1;
+}
+
+.cls_description {
+	display: flex;
+	margin: 20px 0px;
+}
+
+.cls_infoIcon {
+	margin-right: 5px;
+}
+
+.cls_creditsCardCont {
+	display: inline-block;
+	width: 225px;
+	height: 125px;
+	border: solid 3px #f3f4f8;
+	border-radius: 12px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	cursor: pointer;
+	position: relative;
+}
+
+.cls_creditsCardWrapper {
+	display: flex;
+	margin: 10px 0px 30px;
+	flex-wrap: wrap;
+}
+
+.cls_creditsTitle {
+	margin: 10px;
+	text-align: left;
+	/* font-weight: 300; */
+}
+
+.cls_creditsScorer {
+	margin-left: 10px;
+	text-align: left;
+	font-weight: 500;
+}
+
+.cls_creditsBottomTitle {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	color: #3953fe;
+	font-weight: 600;
+}
